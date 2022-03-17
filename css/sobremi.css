@@ -1,0 +1,169 @@
+:root{
+
+--blanco: #FFF;
+--negro:#000;
+--amarillo:#FFC300;
+--gris:#757575;
+--azul:#1F4068;
+
+
+};
+/* ETIQUETAS*/
+
+
+
+html{
+
+	box-sizing: border-box;
+}
+*,*: before, *: after{
+	box-sizing: inherit;
+}
+
+body{
+
+	font-family:'Krub', sans-serif;
+	font-family: 'Roboto Serif', sans-serif;
+}
+footer{
+	text-align: center;
+}
+
+
+/* CLASES*/ 
+
+.navegacion-p a{
+	color: var(--blanco);
+	text-decoration:none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 1rem
+}
+
+.navegacion-p a:hover{/* para cuando  pasa por arriba */
+background-color: var(--amarillo);
+color: var(--negro)
+}
+.titulo{
+	text-align: center;
+	font-size: 2.8rem;
+}
+.titulo2{
+
+	font-size: 1rem;
+
+}
+
+.navegacion-p{
+
+	background-color: var(--azul);
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.contenedor {
+	width: 70rem;
+	
+	margin: 0 auto;/*
+margin-top: 0;
+margin-left: auto;
+margin-bottom: 0;
+margin-right: auto;
+*/
+}
+
+.nav-p{
+
+background-color: var(--azul);
+}
+
+.fondo{
+background-image: url(../img/fondo.jpg);
+background-size: cover;
+height: 300px;
+position: relative;
+color: var(--blanco);
+font-size: 1.2rem;
+margin-bottom: 2rem;
+
+}
+.centrado{
+
+	text-align: center;
+
+}
+.centrado a{
+color: var(--blanco);
+	text-decoration:none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 1rem
+
+}
+
+  
+
+.sombra{
+
+	-webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+padding: 2rem;
+border-radius: 1rem;
+
+
+}
+
+.servicios{
+	display: grid;/* inicializar el grid*/
+	 grid-template-columns: 1fr 1fr ;/*fr significa una fraccion*/
+	 column-gap: 1rem;
+
+}
+
+.servicio{
+	display: flex;/* para distribuir en columnas el */
+	flex-direction: column;
+	align-items: center;
+	text-align:justify;
+
+}
+
+.servicio h3 {
+	color: var(--azul);
+	 
+}
+
+.servicio p{
+	text-align: justify;
+}
+
+
+.contenedor h2{
+	text-align: center;
+}
+/*
+{
+	height: 12rem;
+	width: 12rem;
+	background-color: var(--amarillo);
+	border-radius: 1.5rem; 
+	display: flex;
+	align-items: center;/*centrar arriba -abajo*/
+	justify-content: center;/* centrar izquierda-derecha*/
+
+
+/*/*/
+ .imagen1{
+border-radius: 1.5rem;
+height: 11.8rem;
+	width: 11.8rem;
+
+
+
+
+ }
+ .iconos{
+ 	
+ }

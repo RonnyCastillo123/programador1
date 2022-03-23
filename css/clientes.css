@@ -135,3 +135,50 @@ border-radius: 1rem;
 
 }
 
+.formulario{
+
+background-color: var(--gris);
+width: min(40rem,100%);/* para el fondo azul del formulario*/
+/*margin: 20px 20px 20px 20px;*/
+margin: auto;/* ajustar auomaticamente al centro */
+padding: 1rem;  /*para los margenes o distancia del objeto anterior para centar o ubicar  */
+border-radius: 1rem;/*border redondos */
+
+
+
+
+}
+
+.formulario fieldset{
+	border: none;/*eliminar marco*/
+	/** fieldset es una eytiqueta que esta en la calse formulario*/
+
+
+}
+.formulario legend {
+
+color: var(--amarillo);
+text-align: center;
+font-size: 1.5rem;
+text-transform: uppercase;
+font-weight: bold;
+
+}
+
+.campo label{
+
+	display: block;/* para salto de linea de las etiquetas se presenta en bloque  */
+margin-bottom: 0.5rem;/* margen de abajo*/
+margin-top: : 0.5rem;/* margen de arriba*/
+color: var(--blanco); 
+margin-top: 0.5rem;
+}
+
+.campo input{
+
+width: 90%;
+border:none;
+padding: 1.5rem;
+border-radius: 0.5rem;
+
+}
